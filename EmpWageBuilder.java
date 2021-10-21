@@ -5,10 +5,16 @@ import java.util.Random;
 public class EmpWageBuilder {
 
 	public static void empStatus(int num){
-		if(num == 1)
+		int Wage_Per_HR = 20;
+		int Day_HRs = 8;
+		if(num == 1){
 			System.out.println("Employee Present");
-		else
+			System.out.println("DailyWage = " + Wage_Per_HR * Day_HRs);
+		}
+		else{
 			System.out.println("Employee Absent");
+			System.out.println("DailyWage = " +0);
+		}
 	}
 	public static void main(String[] args) {
 		System.out.println("Welcome to the Employee Wage Computation Program");
