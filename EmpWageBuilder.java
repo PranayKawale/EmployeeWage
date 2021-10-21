@@ -7,7 +7,7 @@ public class EmpWageBuilder {
 	public static void empWageForMonth(int num){
 		int Wage_Per_HR = 20;
         int Day_HRs = 8;
-        int Part_Time_HRs = 4;
+        int Part_Time_Hrs = 4;
         int Days = 20;
         int Max_HRs_Per_Month = 100;
 
@@ -24,7 +24,7 @@ public class EmpWageBuilder {
                     
                     break;
                 case 2:
-                    empHrs = Part_Time_HRs;
+                    empHrs = Part_Time_Hrs;
                     break;
                 case 0:
                     empHrs = 0;
